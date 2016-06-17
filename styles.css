@@ -55,4 +55,68 @@ body {
 #header  {
 
 }
+h1{
+	color:rgb(156,48,154);
+	font-family: 'BalineseFamily';
+	font-size: 70px;
+	margin-top: 10px;
+}
+img{
+width: 80px;
+height: 80px
+}
 
+p{
+color:rgb(156,48,154);
+font-family:'OpenSans-Light';
+margin-top:-40px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: auto;
+      margin: auto;
+  }
+  h3{
+  	float: left;
+  	margin-top: -400px;
+  	font-size: 40px;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color: rgb(231,169,0);
+  	text-transform: uppercase;
+
+  }
+  .slid{
+  	float: left;
+  	margin-top: -20em;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color: black;
+  }
+  .bouton{
+  	float: left;
+  	margin-top: -7em;
+  	text-align: center;
+  	text-shadow: none;
+  	border: 1px solid 	rgb(216,216,216);
+  	width: 100px;
+  	height: 40px;
+  	text-transform: uppercase;
+  	color: rgb(211,211,211);
+  	font-size: 21px;
+  	line-height: 40px
+  	font-family:'OpenSans-Light'
+
+  }
+  
+  .carousel-control .right, .carousel-control .left {
+  	background: none;
+  }
+  .carousel-control:hover{
+  	opacity: 0.5 !important;
+  }
