@@ -56,3 +56,105 @@ body {
 
 }
 
+
+/*///////////LA MARQUE///////////
+////////////////////////////*/
+
+#marque{
+	text-align: center;
+}
+
+
+#marque h2 {
+	color: #663399;
+	font-family: 'OpenSans-Light';
+	font-size: 27px;
+}
+
+#marque img {
+	height: 80px;
+	width: 80px;
+}
+
+#marque p {
+	font-family : 'OpenSans-Light';
+	font-size : 14px;
+}
+
+.gris {
+	color : #606060;
+	margin : 30px 0 20px 0;
+}
+
+.blanc, #marque h3 {
+	color : #ffffff;
+}
+
+#marque h3 {
+	font-family : 'OpenSans-Light';
+	font-size : 21px;
+}
+
+#marque h4 {
+	font-family : 'OpenSans-Light';
+	font-size : 21px;
+	color : #ffffff;
+	line-height: 58px;
+}
+
+
+
+.btn-vetm {
+	background-color : #AC5298;
+	height :58px;
+	width : 224px;
+}
+
+.btn-accesr {
+	background-color : #A267B9;
+	height :58px;
+	width : 224px;
+}
+
+.btn-deco {
+	background-color : #64ACC4;
+	height :58px;
+	width : 224px;
+}
+
+.btn-collect {
+	background-color : #91CA59;
+	height :58px;
+	width : 224px;
+}
+
+.contenu {
+	background-image : url(images/bgMarque.png);
+	background-repeat: repeat-x;
+	background-color: #ECECEC;
+	height : auto;
+	width : 100%;
+	padding: 29px 0 50px 0;
+
+}
+
+
+
+.imageVetm, .imageAcces, .imageDeco, .imageCollect {
+	height : 146px;
+	width : 224px;
+	background-color : #ffffff;
+
+}
+
+.imageDeco {
+	background-image: url(images/imgDeco.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.imageAcces {
+	background-image: url(images/imgAcc.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
