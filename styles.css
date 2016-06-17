@@ -1,0 +1,58 @@
+/*///////////FONT LOGO///////////
+////////////////////////////*/
+
+@font-face {
+font-family: 'BalineseFamily';
+src: url(fonts/BalineseFamily.ttf);
+}
+
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: url(fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-LightItalic';
+src: url(fonts/OpenSans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Italic';
+src: url(fonts/OpenSans/OpenSans-Italic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url(OpenSans/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url(fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+
+
+/*///////////BODY///////////
+////////////////////////////*/
+
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+
+/*///////////HEDEAR///////////
+////////////////////////////*/
+
+#header  {
+
+}
+
