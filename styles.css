@@ -58,15 +58,19 @@ body {
 h1{
 	color:rgb(156,48,154);
 	font-family: 'BalineseFamily';
-	font-size: 70px;
+	font-size: 80px;
 	margin-top: 10px;
 }
-img{
-width: 80px;
-height: 80px
+.logo{
+  height: auto;
+  padding: 40px 0 40px 0;
+}
+.logo img{
+width: 116px;
+height: 116px
 }
 
-p{
+.presentation{
 color:rgb(156,48,154);
 font-family:'OpenSans-Light';
 margin-top:-40px;
@@ -81,42 +85,42 @@ font-weight: bold;
       width: auto;
       margin: auto;
   }
-  h3{
+ .titre3{
   	float: left;
-  	margin-top: -400px;
-  	font-size: 40px;
+  	margin-top: -10em;
+    margin-left: 
+  	font-size: 80px;
   	font-family: 'OpenSans-Light';
   	text-shadow: none;
-  	color: rgb(231,169,0);
+  	color:rgb(92,92,92);
   	text-transform: uppercase;
+    font-size: 35px;
 
   }
-  .slid{
+  .h3gras{
+    color: rgb(99,99,99);
+    font-weight:bold;
+  }
+  .h3orange{
+    color: rgb(232,171,0);
+    font-weight: normal;
+
+
+  }
+  .h3violet{
+    color: rgb(219,117,156);
+    font-weight: normal;
+
+  }
+  .texteCarousel{
   	float: left;
-  	margin-top: -20em;
+  	margin-top: -15em;
   	font-family: 'OpenSans-Light';
   	text-shadow: none;
   	color: black;
   }
-  .bouton{
-  	float: left;
-  	margin-top: -7em;
-  	text-align: center;
-  	text-shadow: none;
-  	border: 1px solid 	rgb(216,216,216);
-  	width: 100px;
-  	height: 40px;
-  	text-transform: uppercase;
-  	color: rgb(211,211,211);
-  	font-size: 21px;
-  	line-height: 40px
-  	font-family:'OpenSans-Light'
-
+  
+  .carousel-control.right, .carousel-control.left {
+  	background-image:none;
   }
   
-  .carousel-control .right, .carousel-control .left {
-  	background: none;
-  }
-  .carousel-control:hover{
-  	opacity: 0.5 !important;
-  }
