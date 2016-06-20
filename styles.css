@@ -65,10 +65,15 @@ body {
 }
 
 
-#marque h2 {
-	color: #663399;
+.marque h2, .livreDOR h2 {
+	color: #DAD8D9;
 	font-family: 'OpenSans-Light';
-	font-size: 27px;
+	font-size: 47px;
+}
+
+.titre {
+	height : 200px;
+	padding : 100px 0 0 0;
 }
 
 #marque img {
@@ -84,6 +89,7 @@ body {
 .gris {
 	color : #606060;
 	margin : 30px 0 20px 0;
+	text-align: center;
 }
 
 .blanc, #marque h3 {
@@ -92,69 +98,133 @@ body {
 
 #marque h3 {
 	font-family : 'OpenSans-Light';
-	font-size : 21px;
+	font-size : 2px;
 }
 
 #marque h4 {
 	font-family : 'OpenSans-Light';
-	font-size : 21px;
+	font-size : 27px;
 	color : #ffffff;
-	line-height: 58px;
+	line-height: 72px;
 }
 
 
 
-.btn-vetm {
-	background-color : #AC5298;
-	height :58px;
-	width : 224px;
+.titre-vetm {
+	background-color : #91E4DA;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/bgDeco.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
-.btn-accesr {
-	background-color : #A267B9;
-	height :58px;
-	width : 224px;
+.cadreV {
+	height : 72px;
+	width : 100%;
+	background-color : #5FBAA8;
+	background-image : url(images/kimono.png);
+	background-repeat: no-repeat;
+	background-position: left;
 }
 
-.btn-deco {
-	background-color : #64ACC4;
-	height :58px;
-	width : 224px;
+.titre-acces {
+	background-color : #FFDD46;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/bgDeco.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
-.btn-collect {
-	background-color : #91CA59;
-	height :58px;
-	width : 224px;
+.cadreA {
+	height : 72px;
+	width : 100%;
+	background-color : #F6A50E;
+	background-image : url(images/colier.png);
+	background-repeat: no-repeat;
+	background-position: left;
 }
+
+.titre-deco {
+	background-color : #C6EB60;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/bgDeco.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.cadreD {
+	height : 72px;
+	width : 100%;
+	background-color : #73C934;
+	background-image : url(images/tapis.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.cadreV h4, .cadreD h4, .cadreA h4 {
+	float : left;
+	margin : auto 70px ;
+
+}
+
 
 .contenu {
-	background-image : url(images/bgMarque.png);
-	background-repeat: repeat-x;
+	background-image : url(images/bg-grey.jpg);
+
 	background-color: #ECECEC;
 	height : auto;
 	width : 100%;
-	padding: 29px 0 50px 0;
+	padding: 40px 0 0 0;
 
 }
 
+.no-gutters.vetm, .no-gutters.access, .no-gutters.deco {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.no-gutters [class*='col-'],
+.no-gutters [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.deco p, .acces p, .vetm p  {
+	font-size: 11px;
+	text-align: left;
+	width: 190px;
+	margin: 20px 0 30px 20px;
+	color: #3B3B3B;
+}
 
 
-.imageVetm, .imageAcces, .imageDeco, .imageCollect {
-	height : 146px;
-	width : 224px;
-	background-color : #ffffff;
+.deco , .acces , .vetm   {
+	padding : ;	
+}
+
+.telech {
+	width : 100%;
+	text-align: center;
+	background-color: #ffffff;
+	padding : 50px 0 50px 0;
+}
+
+.telech img {
+	margin-top: 30px;
+	width: 36px;
+	height: 36px;
 
 }
 
-.imageDeco {
-	background-image: url(images/imgDeco.png);
-	background-repeat: no-repeat;
-	background-position: center center;
+.telech a{
+	color: #993399;
+	font-size: 21px;
+	font-family : 'OpenSans-Light';
 }
 
-.imageAcces {
-	background-image: url(images/imgAcc.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-}
+
+/*///////////LIVRE D'OR///////////
+////////////////////////////*/
