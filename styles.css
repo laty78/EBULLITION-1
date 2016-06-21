@@ -37,7 +37,13 @@ font-family: 'OpenSans-Bold';
 src: url(fonts/OpenSans/OpenSans-Bold.ttf);
 }
 
+/*///////////NAV///////////
+////////////////////////////*/
 
+.navbar {
+	background-image: url(images/bg-color.jpg);
+	background-size: cover;
+}
 
 /*///////////BODY///////////
 ////////////////////////////*/
@@ -114,57 +120,74 @@ body {
 	background-color : #91E4DA;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/bgDeco.png);
+	background-image : url(images/chemises.png);
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: 90% 90%;
 }
 
 .cadreV {
 	height : 72px;
 	width : 100%;
 	background-color : #5FBAA8;
-	background-image : url(images/kimono.png);
+	background-image : url(images/kimono.svg);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: 10px center ;
+	
+
 }
 
 .titre-acces {
 	background-color : #FFDD46;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/bgDeco.png);
+	background-image : url(images/boucles.png);
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: 90% 90%;
 }
 
 .cadreA {
 	height : 72px;
 	width : 100%;
 	background-color : #F6A50E;
-	background-image : url(images/colier.png);
+	background-image : url(images/colier.svg);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: 10px center ;
+	
+
 }
 
 .titre-deco {
 	background-color : #C6EB60;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/bgDeco.png);
+	background-image : url(images/miroires.png);
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: 90% 70%;
+	
 }
 
 .cadreD {
 	height : 72px;
 	width : 100%;
 	background-color : #73C934;
-	background-image : url(images/tapis.png);
+	background-image : url(images/tapis1.svg);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: 10px center ;
 }
 
-.cadreV h4, .cadreD h4, .cadreA h4 {
+.cadreV h4 {
+	float : left;
+	margin : auto 90px ;
+
+}
+
+.cadreD h4 {
+	float : left;
+	margin : auto 80px ;
+
+}
+
+.cadreA h4 {
 	float : left;
 	margin : auto 70px ;
 
@@ -177,7 +200,7 @@ body {
 	background-color: #ECECEC;
 	height : auto;
 	width : 100%;
-	padding: 40px 0 0 0;
+	padding: 20px 0 0 0;
 
 }
 
@@ -195,7 +218,7 @@ body {
 .deco p, .acces p, .vetm p  {
 	font-size: 11px;
 	text-align: left;
-	width: 190px;
+	width: 110px;
 	margin: 20px 0 30px 20px;
 	color: #3B3B3B;
 }
@@ -205,6 +228,15 @@ body {
 	padding : ;	
 }
 
+@media screen and (min-width: 240px) and (max-width: 480px) {
+	.deco p, .acces p, .vetm p  {
+	display: none;
+}
+	.titre-deco, .titre-acces, .titre-vetm {
+		background-position: center 86%;
+	}
+}
+
 .telech {
 	width : 100%;
 	text-align: center;
@@ -212,10 +244,10 @@ body {
 	padding : 50px 0 50px 0;
 }
 
-.telech img {
-	margin-top: 30px;
-	width: 36px;
-	height: 36px;
+.iconCat {
+	margin: 30px 0 10px 0;
+	width: 20px;
+	height: 20px;
 
 }
 
@@ -229,18 +261,24 @@ body {
 /*///////////LIVRE D'OR///////////
 ////////////////////////////*/
 
-.zoneCmnt {
+.extrait {
 	height: auto;
 	width : ;
 	background-color: #ffffff;
-	padding: 20px 20px 20px 20px;
+	padding: 30px 20px 20px 20px;
+	margin-top: 20px;
 }
 
 #livreDOR h4 {
 	font-size: 21px;
 	color: #9E2E9C;
-	line-height: auto;
+	line-height: 0;
+	text-align: left;
 	
+}
+
+.date{
+	text-align: left;
 }
 
 .Cmnt p {
@@ -248,3 +286,24 @@ body {
 	width : auto;
 
 }
+
+.livreDOR .contenu {
+	height: auto;
+	background-repeat: repeat;
+}
+
+.liensLivre {
+	width : 60%;
+	text-align: center;
+
+}
+
+
+.liensLivre a{
+	color: #663398;
+	font-size: 21px;
+	font-family : 'OpenSans-Light';
+}
+
+
+
