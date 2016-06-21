@@ -1,4 +1,4 @@
-/*///////////FONT LOGO///////////
+ /*///////////FONT LOGO///////////
 ////////////////////////////*/
 
 @font-face {
@@ -87,8 +87,7 @@ font-weight: bold;
   }
  .titre3{
   	float: left;
-  	margin-top: -10em;
-    margin-left: 
+  	margin-top: -10em; 
   	font-size: 80px;
   	font-family: 'OpenSans-Light';
   	text-shadow: none;
@@ -123,4 +122,64 @@ font-weight: bold;
   .carousel-control.right, .carousel-control.left {
   	background-image:none;
   }
+  .coordonee{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(215,213,214);
+    font-family:"OpenSans-Light";
+
+  }
+  .icone {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .nom{
+    margin-top: 20px;
+    color:rgb(103,50,156);
+
+  }
+  .telephone{
+    
+    color: rgb(160,46,160);
+    
+  }
+  .formulaire{
+    
+  }
   
+   .titre {
+    height : 200px;
+    padding : 100px 0 0 0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #DAD8D9;
+    font-family: 'OpenSans-Light';
+    font-size: 47px;
+}
+.envoyer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(119,74,169);
+    margin-top: 20px;
+  }
+  .envoyer p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+  }
+  .envoyer img{
+    margin-top: 30px;
+  }
+  .haut{
+    color: rgb(184,184,184);
+    
+  }
+  textarea{
+    margin-top: 5px;
+  }
