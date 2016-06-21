@@ -31,7 +31,7 @@
 </head>
 
 <body>
-
+   <div class="container-fluid">
 <!--////////////////////////////////////////////////////////////////
 ////////////////////////       NAVBAR       ////////////////////////
 /////////////////////////////////////////////////////////////////-->
@@ -50,7 +50,7 @@
 
 	<div class="" id="header">
 	    <div class="text-center logo">
-	       <img src="images/lotus.svg">
+	       <img src="images/logo116px.svg">
 	       <h1>Ebullition</h1>
 	       <p class="presentation">Vêtements-Accesoires et Décoration</p>
 	    </div>
@@ -129,22 +129,25 @@
 
 
 	<footer>
-	    <div id="contact">
-	    <div class="row">
-	        <div class="col-md-offset-5 col-md-6">
-			       <p class="text-center coordonee" >CONTACT</p>
-			       <a href="#"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a> 
-		           <a href="#"><i class="fa fa-2x fa-mobile" aria-hidden="true"></i></a>
-		           <a href="#"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
-		           <a href="#"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>
+	    <div id="contact" class="contact">
+	        
+	        	  <div class="titre"><h2>CONTACT</h2></div>
+	       
+	       
+			    <div class="icone">
+			        <img src="images/mailColor.png">
+			        <img src="images/phoneGrey.png">
+			        <img src="images/t.png">
+			        <img src="images/f.png">
+			        <p class="nom">ANNE LEMEILLEUR</p>
+                    <p class="telephone">+33 6 03 35 67 32</p>
 		        </div>
-           </div>
-           <p class="text-center">ANNE LEMEILLEUR</p>
-           <p class="text-center">+33 6 03 35 67 32</p>
+           
+           
 
            <form class="form-horizontal" role="form">
 	            <div class="row">
-	               <div class="col-md-6">
+	               <div class="col-md-6 formulaire">
 		               <div class="form-group">
 						    <label class="control-label col-md-5" for="Name"></label>
 						    <div class="col-md-offset-7 col-md-5">          
@@ -168,10 +171,20 @@
 				    </div>
 
 	                <div class="col-md-6">
-				        <p class=" col-md-3">votre message :<br /> <textarea name="le-message" rows="7" cols="30"></textarea> </p>
+				         <textarea name="le-message" placeholder="votre message " rows="7" cols="30"></textarea> 
 				    </div>		    			    
 				</div>    
             </form>
+
+            <div class="envoyer">
+               <a href="#"><img src="images/send.png"></a>
+               
+               <p>ENVOYER</p>
+               <a href id="title"><img src="images/fleche.svg"></a>
+               <p class="haut">HAUT DE PAGE</p>
+
+            	
+            </div>
 
 
 	    	
@@ -184,7 +197,7 @@
 
 
 
-
+  </div>
 
 </body>
 </html>
