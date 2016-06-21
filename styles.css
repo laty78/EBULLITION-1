@@ -1,4 +1,4 @@
-/*///////////FONT LOGO///////////
+ /*///////////FONT LOGO///////////
 ////////////////////////////*/
 
 @font-face {
@@ -55,4 +55,131 @@ body {
 #header  {
 
 }
+h1{
+	color:rgb(156,48,154);
+	font-family: 'BalineseFamily';
+	font-size: 80px;
+	margin-top: 10px;
+}
+.logo{
+  height: auto;
+  padding: 40px 0 40px 0;
+}
+.logo img{
+width: 116px;
+height: 116px
+}
 
+.presentation{
+color:rgb(156,48,154);
+font-family:'OpenSans-Light';
+margin-top:-40px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: auto;
+      margin: auto;
+  }
+ .titre3{
+  	float: left;
+  	margin-top: -10em; 
+  	font-size: 80px;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color:rgb(92,92,92);
+  	text-transform: uppercase;
+    font-size: 35px;
+
+  }
+  .h3gras{
+    color: rgb(99,99,99);
+    font-weight:bold;
+  }
+  .h3orange{
+    color: rgb(232,171,0);
+    font-weight: normal;
+
+
+  }
+  .h3violet{
+    color: rgb(219,117,156);
+    font-weight: normal;
+
+  }
+  .texteCarousel{
+  	float: left;
+  	margin-top: -15em;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color: black;
+  }
+  
+  .carousel-control.right, .carousel-control.left {
+  	background-image:none;
+  }
+  .coordonee{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(215,213,214);
+    font-family:"OpenSans-Light";
+
+  }
+  .icone {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .nom{
+    margin-top: 20px;
+    color:rgb(103,50,156);
+
+  }
+  .telephone{
+    
+    color: rgb(160,46,160);
+    
+  }
+  .formulaire{
+    
+  }
+  
+   .titre {
+    height : 200px;
+    padding : 100px 0 0 0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #DAD8D9;
+    font-family: 'OpenSans-Light';
+    font-size: 47px;
+}
+.envoyer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(119,74,169);
+    margin-top: 20px;
+  }
+  .envoyer p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+  }
+  .envoyer img{
+    margin-top: 30px;
+  }
+  .haut{
+    color: rgb(184,184,184);
+    
+  }
+  textarea{
+    margin-top: 5px;
+  }
