@@ -52,28 +52,39 @@ body {
 /*///////////NAVBAR////////////
 ////////////////////////////*/
 
-#myNavbar {
-	width:100%;
-	height:40px;
-	background-image: url(images/bg-color.jpg)
-}
 
-.navhead {
-	display:inline;
-	position:left;
+.dropdown-menu {
+
+
 }
 
 .logo {
-	width:40px;
-	height:30px;
+	display:block;
+	margin-top:8px;
+	float:left;
+	margin-left:30px;
 }
 
-
-/*///////////HEDEAR///////////
-////////////////////////////*/
-
-.content {
-	background-color:red;
-	height:1300px;
+#myNavbar {
+	background-image:url(images/bg-color.jpg);
 }
 
+.nav {
+	float:left;
+	font-family: 'OpenSans-Light';
+	
+}
+
+.textblc {
+	color:#ffffff;
+	margin-top:8px;
+	margin-left:20px;
+	font-size:18px;
+
+}
+
+.full-width.dropdown > .dropdown-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+}
