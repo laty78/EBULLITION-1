@@ -51,6 +51,10 @@ body {
 	padding-right: 0;
 	padding-left: 0;
 }
+
+a:hover {
+	text-decoration-line : none;
+	}
 /*///////////NAVBAR////////////
 ////////////////////////////*/
 
@@ -122,7 +126,7 @@ button:hover {
 
 .logoHeader{
   height: auto;
-  padding: 100px 0 40px 0;
+  padding: 30px 0 10px 0;
 }
 
 .logoHeader img{
@@ -134,7 +138,7 @@ height: 116px
 color: #63398B;
 font-family:'OpenSans-Light';
 margin-top:10px;
-font-size: 14px;
+font-size: 16px;
 
 }
 
@@ -241,14 +245,15 @@ font-size: 14px;
 #marque h4 {
 	font-family : 'OpenSans-Light';
 	font-size : 27px;
-	color : #ffffff;
+	color : #993399;
 	line-height: 72px;
+	text-align: center;
 }
 
 
 
 .titre-vetm {
-	background-color : #91E4DA;
+	background-color : #fff;
 	height : 240px;
 	width : 100%;
 	background-image : url(images/chemises.png);
@@ -259,16 +264,13 @@ font-size: 14px;
 .cadreV {
 	height : 72px;
 	width : 100%;
-	background-color : #5FBAA8;
-	background-image : url(images/kimono.svg);
-	background-repeat: no-repeat;
-	background-position: 10px center ;
+
 	
 
 }
 
 .titre-acces {
-	background-color : #FFDD46;
+	background-color : #fff;
 	height : 240px;
 	width : 100%;
 	background-image : url(images/boucles.png);
@@ -279,16 +281,13 @@ font-size: 14px;
 .cadreA {
 	height : 72px;
 	width : 100%;
-	background-color : #F6A50E;
-	background-image : url(images/colier.svg);
-	background-repeat: no-repeat;
-	background-position: 10px center ;
+;
 	
 
 }
 
 .titre-deco {
-	background-color : #C6EB60;
+	background-color : #fff;
 	height : 240px;
 	width : 100%;
 	background-image : url(images/miroires.png);
@@ -300,29 +299,10 @@ font-size: 14px;
 .cadreD {
 	height : 72px;
 	width : 100%;
-	background-color : #73C934;
-	background-image : url(images/tapis1.svg);
-	background-repeat: no-repeat;
-	background-position: 10px center ;
+	
 }
 
-.cadreV h4 {
-	float : left;
-	margin : auto 90px ;
 
-}
-
-.cadreD h4 {
-	float : left;
-	margin : auto 80px ;
-
-}
-
-.cadreA h4 {
-	float : left;
-	margin : auto 70px ;
-
-}
 
 
 .contenu {
@@ -350,14 +330,11 @@ font-size: 14px;
 	font-size: 11px;
 	text-align: left;
 	width: 110px;
-	margin: 20px 0 30px 20px;
+	margin: 0 0 30px 20px;
 	color: #3B3B3B;
 }
 
 
-.deco , .acces , .vetm   {
-	padding : ;	
-}
 
 @media screen and (min-width: 240px) and (max-width: 480px) {
 	.deco p, .acces p, .vetm p  {
@@ -368,24 +345,33 @@ font-size: 14px;
 	}
 }
 
-.telech {
+
+
+.zoneTelechargement {
+	height : 140px;
 	width : 100%;
+	background-color: #63398B;
 	text-align: center;
-	background-color: #ffffff;
-	padding : 50px 0 50px 0;
+	padding : 50px 0 20px 0;
+	margin-top: 50px;
 }
 
-.iconCat {
-	margin: 30px 0 10px 0;
-	width: 20px;
-	height: 20px;
+.zoneTelechargement .icone {
+
+	height: 51px;
+	width : 51px;
+	background-image: url(images/downld.png);
+	background-repeat: no-repeat;
+	margin: -70px auto;
+
 
 }
 
-.telech a{
-	color: #993399;
+.zoneTelechargement a {
+	color: #fff;
 	font-size: 21px;
 	font-family : 'OpenSans-Light';
+	margin-top: 100px;
 }
 
 
@@ -398,6 +384,10 @@ font-size: 14px;
 	background-color: #ffffff;
 	padding: 30px 20px 20px 20px;
 	margin-top: 20px;
+}
+
+.extrait:last-child {
+	margin-bottom: 40px;
 }
 
 #livreDOR h4 {
@@ -421,19 +411,39 @@ font-size: 14px;
 .livreDOR .contenu {
 	height: auto;
 	background-repeat: repeat;
+	padding: 10px 0 40px 0;
+	margin-bottom: 40px;
 }
 
 .liensLivre {
-	width : 60%;
-	text-align: center;
 
 }
 
+.liensLivre .iconConsult {
+	width : 59;
+	height: 39;
+	text-align: center;
+	background-image: url(images/lunettes.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+
+}
+
+.liensLivre .iconSigner {
+	width : 40;
+	height: 38;
+	text-align: center;
+	background-image: url(images/bulle.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
 
 .liensLivre a{
 	color: #663398;
 	font-size: 21px;
 	font-family : 'OpenSans-Light';
+	margin-top: 40px;
 }
 
 
@@ -443,8 +453,9 @@ font-size: 14px;
     right: 0;
     position: absolute;
 }
-/*//// FOOTER /////*/
 
+/*////////// FOOTER //////////
+////////////////////////////*/
 .coordonee{
     font-size: 60px;
     margin-top: 40px;
@@ -459,12 +470,13 @@ font-size: 14px;
     font-weight: bold;
     font-size: 17px;
   }
+
   .nom{
     margin-top: 20px;
     color:rgb(103,50,156);
 
   }
-  .telephone{
+  .telephone, .adresse{
     
     color: rgb(160,46,160);
     
@@ -506,4 +518,26 @@ font-size: 14px;
   }
   textarea{
     margin-top: 5px;
+  }
+
+  .iconesContact{
+  	display: inline;
+  	margin: auto;
+  }
+
+  .phone p, .mail p{
+  	visibility: hidden;
+  }
+
+  .phone:hover p, .mail:hover p {
+  	visibility: visible;
+  }
+
+  input, textarea {
+  	background-color: #F3F3F3;
+  	border-radius: 0;
+  	border : 0;
+  	color : #66339A;
+  	font-size: 12px;
+  	font-family: 'OpenSans-Light';
   }
