@@ -61,6 +61,7 @@ a:hover {
 .navbar {
 	background-image: url(images/bg-color.jpg);
 	background-size: cover;
+	border: 0;
 }
 
 
@@ -75,19 +76,25 @@ a:hover {
 .nav {
 	float:left;
 	font-family: 'OpenSans-Light';
+	height : 32px;
 }
 
 
 .navbar-collapse ul li .textPrincipal {
 
 	color: #ffffff;
-	margin-top:8px;
-	margin-left:20px;
+	margin-left:8px;
+	margin-right:8px;
 	font-size:16px;
+	line-height : 1.2;
 
 }
 
-
+.navbar-collapse ul li .textPrincipal:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	background-height :36px;
+}
 
 
 li:hover ul {
@@ -126,7 +133,7 @@ button:hover {
 
 .logoHeader{
   height: auto;
-  padding: 30px 0 10px 0;
+  padding: 80px 0 10px 0;
 }
 
 .logoHeader img{
