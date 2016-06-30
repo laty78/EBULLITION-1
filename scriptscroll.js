@@ -10,6 +10,6 @@ $(document).ready(function(){
        } else {
           $('.navbar-brand').css('visibility','hidden');
        }
-   });
+   	});
     }
 });
