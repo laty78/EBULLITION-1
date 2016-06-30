@@ -6,9 +6,9 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.navbar-header').css('visibility','visible');
+          $('.navbar-brand').css('visibility','visible');
        } else {
-          $('.navbar-header').css('visibility','hidden');
+          $('.navbar-brand').css('visibility','hidden');
        }
    });
     }

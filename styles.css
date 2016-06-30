@@ -64,9 +64,19 @@ a:hover {
 	border: 0;
 }
 
+.navbar-brand {
+	visibility : hidden;
+}
 
 .navbar-brand.logo {
-	margin : -10px auto;
+	padding: 10px 0 0 14px;
+}
+
+.logoH {
+	font-family: 'BalineseFamily';
+	color : #fff;
+	font-size: 48px;
+	line-height: 0;
 }
 
 #myNavbar {
@@ -83,7 +93,7 @@ a:hover {
 .navbar-collapse ul li .textPrincipal {
 
 	color: #ffffff;
-	margin-left:8px;
+	margin-left:20px;
 	margin-right:8px;
 	font-size:16px;
 	line-height : 1.2;
@@ -101,10 +111,28 @@ li:hover ul {
 	display : block;
 }
 
-.zone {
-	width : 400px;
-	height : 200px;
-	background : ;
+.zoneDeco, .zoneAcc, .zoneVetm {
+	min-width : 320px;
+	min-height : 160px;
+	padding : 10px;
+	background-color : rgba(255,255,255,0.8) ;
+	background-repeat: no-repeat;
+	background-position: 180px center ;
+}
+
+
+
+.zoneVetm {
+	background-image: url(images/kimono.png);
+	background-position: 160px center ;
+}
+
+.zoneAcc {
+	background-image: url(images/colier.png);
+}
+
+.zoneDeco {
+	background-image: url(images/tapis.png);
 }
 
 
@@ -523,14 +551,30 @@ font-size: 16px;
     color: rgb(184,184,184);
     
   }
-  textarea{
-    margin-top: 5px;
-  }
+
+
 
   .iconesContact{
   	display: inline;
   	margin: auto;
   }
+
+  .mail {
+     float:left;
+     margin-left:550px;
+ }
+   .phone {
+     float:left;
+     margin-left:-80px;
+ }
+  .twitter {
+    float:left;
+    margin-left:-80px;
+}
+ .facebook {
+    float:left;
+    margin-left:-30px;
+}
 
   .phone p, .mail p{
   	visibility: hidden;
@@ -540,11 +584,24 @@ font-size: 16px;
   	visibility: visible;
   }
 
-  input, textarea {
-  	background-color: #F3F3F3;
-  	border-radius: 0;
-  	border : 0;
-  	color : #66339A;
-  	font-size: 12px;
-  	font-family: 'OpenSans-Light';
-  }
+
+  .case{
+    background-color: rgb(243,243,243);
+   border-radius: 0;
+}
+
+	#email , #Telephone , #name{
+    color:black;
+    font-family: 'OpenSans-Light';
+}
+
+	textarea{
+    background-color: #F3F3F3;
+    color:black;
+    border-radius: 0;
+    border: 0;
+    font-family: 'OpenSans-Light';
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
