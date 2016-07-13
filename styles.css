@@ -162,7 +162,8 @@ padding-right: 60px;
   position: relative;
   text-align: center;
   cursor: pointer;
-  background: #F94D5D;
+  background: #F400FF;
+
 }
 
 .hover .texthover {
@@ -194,7 +195,7 @@ padding-right: 60px;
 }
 
 .hover:hover img {  
-  opacity: 0.1;
+  opacity: 0.6;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
