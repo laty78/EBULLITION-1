@@ -350,6 +350,10 @@ button:hover {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
 }
+/*.dropdown-menu > li > a:hover { // Hover blanc a supprimer/
+	background-color: none !important;
+}*/
+
 /*///////////HEADER////////////
 ////////////////////////////*/
 
