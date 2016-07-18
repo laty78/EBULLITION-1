@@ -359,7 +359,7 @@ padding-right: 60px;
   transform: translate3d(0,0,0);
 }
 
-/*///////////LISTE-CAROUSEL////////////
+/*///////////CAROUSEL////////////
 ////////////////////////////*/
 
 .carousel-inner > .item > img,
@@ -769,12 +769,10 @@ padding-right: 60px;
     background-color: rgb(243,243,243);
    border-radius: 0;
 }
-
 	#email , #Telephone , #name{
     color:black;
     font-family: 'OpenSans-Light';
 }
-
 	textarea{
     background-color: #F3F3F3;
     color:black;
@@ -784,4 +782,11 @@ padding-right: 60px;
     margin-top: 5px;
     padding-left: 10px;
     padding-top: 4px;
+}
+.mentions{
+	float: right;
+	color: rgb(119,74,169);
+}
+.mentionLegales a{
+	color: rgb(119,74,169) !important;
 }
