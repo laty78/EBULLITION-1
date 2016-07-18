@@ -37,30 +37,6 @@ font-family: 'OpenSans-Bold';
 src: url(fonts/OpenSans/OpenSans-Bold.ttf);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*///////////BODY///////////
 ////////////////////////////*/
 
@@ -170,9 +146,9 @@ button:hover {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
 }
-/*.dropdown-menu > li > a:hover { // Hover blanc a supprimer/
-	background-color: none !important;
-}*/
+.dropdown-menu > li > a:hover {
+	width: 150px !important;
+}
 
 /*///////////HEADER////////////
 ////////////////////////////*/
@@ -202,7 +178,7 @@ margin-top:10px;
 font-size: 16px;
 
 }
-/*///////////Nouveautés///////////*/
+/*///////////LISTE-NOUVEAUTES///////////*/
 
 
 /*.nouveautes{
@@ -383,7 +359,7 @@ padding-right: 60px;
   transform: translate3d(0,0,0);
 }
 
-/*///////////CAROUSEL////////////
+/*///////////LISTE-CAROUSEL////////////
 ////////////////////////////*/
 
 .carousel-inner > .item > img,
@@ -436,8 +412,6 @@ padding-right: 60px;
 .slide {
 	width: 100%;
 }
-
-
   
 /*///////////LA MARQUE///////////
 ////////////////////////////*/
