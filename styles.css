@@ -38,7 +38,171 @@ src: url(fonts/OpenSans/OpenSans-Bold.ttf);
 }
 
 
-/*Nouveautés*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////BODY///////////
+////////////////////////////*/
+
+body {
+	padding: 0;
+	width: 100%;
+}
+
+.container-fuild {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+a:hover {
+	text-decoration-line : none;
+	}
+/*///////////NAVBAR////////////
+////////////////////////////*/
+
+.navbar {
+	background-image: url(images/bg-color.jpg);
+	background-size: cover;
+	border: 0;
+}
+
+.navbar-brand {
+	visibility : hidden;
+}
+
+.navbar-brand.logo {
+	padding: 10px 0 0 14px;
+}
+
+.logoH {
+	font-family: 'BalineseFamily';
+	color : #fff;
+	font-size: 48px;
+	line-height: 0;
+}
+
+#myNavbar {
+	background-image:url(images/bg-color.jpg);
+}
+
+.nav {
+	float:left;
+	font-family: 'OpenSans-Light';
+	height : 32px;
+}
+
+
+.navbar-collapse ul li .textPrincipal {
+
+	color: #ffffff;
+	margin-left:20px;
+	margin-right:8px;
+	font-size:16px;
+	line-height : 1.2;
+
+}
+
+.navbar-collapse ul li .textPrincipal:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	background-height :36px;
+}
+
+
+li:hover ul {
+	display : block;
+}
+
+.zoneDeco, .zoneAcc, .zoneVetm {
+	min-width : 320px;
+	min-height : 160px;
+	padding : 10px;
+	background-color : rgba(255,255,255,0.8) ;
+	background-repeat: no-repeat;
+	background-position: 180px center ;
+}
+
+
+
+.zoneVetm {
+	background-image: url(images/kimono.png);
+	background-position: 160px center ;
+}
+
+.zoneAcc {
+	background-image: url(images/colier.png);
+}
+
+.zoneDeco {
+	background-image: url(images/tapis.png);
+}
+
+
+.navbar-toggle {
+	border: none;
+}
+
+button:hover {
+	border: none;
+	background-color : black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+/*.dropdown-menu > li > a:hover { // Hover blanc a supprimer/
+	background-color: none !important;
+}*/
+
+/*///////////HEADER////////////
+////////////////////////////*/
+
+.logoHeader h1{
+	color:rgb(156,48,154);
+	font-family: 'BalineseFamily';
+	line-height: 0;
+	font-size: 80px;
+	margin-top: 60px;
+}
+
+.logoHeader{
+  height: auto;
+  padding: 80px 0 10px 0;
+}
+
+.logoHeader img{
+width: 116px;
+height: 116px
+}
+
+.presentation{
+color: #63398B;
+font-family:'OpenSans-Light';
+margin-top:10px;
+font-size: 16px;
+
+}
+/*///////////Nouveautés///////////*/
 
 
 /*.nouveautes{
@@ -217,170 +381,6 @@ padding-right: 60px;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*///////////BODY///////////
-////////////////////////////*/
-
-body {
-	padding: 0;
-	width: 100%;
-}
-
-.container-fuild {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-a:hover {
-	text-decoration-line : none;
-	}
-/*///////////NAVBAR////////////
-////////////////////////////*/
-
-.navbar {
-	background-image: url(images/bg-color.jpg);
-	background-size: cover;
-	border: 0;
-}
-
-.navbar-brand {
-	visibility : hidden;
-}
-
-.navbar-brand.logo {
-	padding: 10px 0 0 14px;
-}
-
-.logoH {
-	font-family: 'BalineseFamily';
-	color : #fff;
-	font-size: 48px;
-	line-height: 0;
-}
-
-#myNavbar {
-	background-image:url(images/bg-color.jpg);
-}
-
-.nav {
-	float:left;
-	font-family: 'OpenSans-Light';
-	height : 32px;
-}
-
-
-.navbar-collapse ul li .textPrincipal {
-
-	color: #ffffff;
-	margin-left:20px;
-	margin-right:8px;
-	font-size:16px;
-	line-height : 1.2;
-
-}
-
-.navbar-collapse ul li .textPrincipal:hover {
-	color: #fff;
-	background-color: rgba(255,255,255,0.3);
-	background-height :36px;
-}
-
-
-li:hover ul {
-	display : block;
-}
-
-.zoneDeco, .zoneAcc, .zoneVetm {
-	min-width : 320px;
-	min-height : 160px;
-	padding : 10px;
-	background-color : rgba(255,255,255,0.8) ;
-	background-repeat: no-repeat;
-	background-position: 180px center ;
-}
-
-
-
-.zoneVetm {
-	background-image: url(images/kimono.png);
-	background-position: 160px center ;
-}
-
-.zoneAcc {
-	background-image: url(images/colier.png);
-}
-
-.zoneDeco {
-	background-image: url(images/tapis.png);
-}
-
-
-.navbar-toggle {
-	border: none;
-}
-
-button:hover {
-	border: none;
-	background-color : black;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;
-}
-/*.dropdown-menu > li > a:hover { // Hover blanc a supprimer/
-	background-color: none !important;
-}*/
-
-/*///////////HEADER////////////
-////////////////////////////*/
-
-.logoHeader h1{
-	color:rgb(156,48,154);
-	font-family: 'BalineseFamily';
-	line-height: 0;
-	font-size: 80px;
-	margin-top: 60px;
-}
-
-.logoHeader{
-  height: auto;
-  padding: 80px 0 10px 0;
-}
-
-.logoHeader img{
-width: 116px;
-height: 116px
-}
-
-.presentation{
-color: #63398B;
-font-family:'OpenSans-Light';
-margin-top:10px;
-font-size: 16px;
-
 }
 
 /*///////////CAROUSEL////////////
