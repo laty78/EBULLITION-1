@@ -790,3 +790,35 @@ padding-right: 60px;
 .mentionLegales a{
 	color: rgb(119,74,169) !important;
 }
+/*//////////pagevet/////////////*/
+.photovet{
+	margin-bottom: 50px;
+	
+}
+.photovet img{
+	border-radius: 20px;
+}
+/*.img {
+  max-height: 350px;
+}*/
+p{
+	margin-bottom: 35px;
+	text-align: center;
+
+}
+.pagevet img{
+  width: 200px;
+  height: 300px;
+  
+  margin-right: 150px;
+  margin-bottom: 25px;
+
+    border: 2px solid #000;
+    -webkit-border-radius: 
+               5px 25px 5px 5px / 5px 15px 5px 5px; 
+    -moz-border-radius:
+               5px 25px 5px 10px / 5px 15px 5px 5px; 
+    border-radius:
+               5px 25px 5px 5px / 5px 15px 5px 5px;
+               box-shadow: 5px 5px 5px black;
+}
