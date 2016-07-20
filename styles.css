@@ -766,7 +766,7 @@ height:200px;
 /*/////////////////////////PAGE COLLIERS + BRACELETS + BINDIS////////////
 ///////////////////////////////////////////////////////*/
 
-.Titre-Colliers{
+.Titre-Colliers , .Titre-Bracelets , .Titre-Bindis{
 	padding-bottom: 30px;
 	color: #923B8B;
 }
@@ -774,7 +774,10 @@ height:200px;
 	background-color: #B8B8B8;
 	color: #923B8B;
 }
-
+ .col-sm-3 img {
+ 	width: 100%;
+ 	
+ }
 
 
 /*/////////////////////////PAGE COLLIERS + BRACELETS + BINDIS////////////
